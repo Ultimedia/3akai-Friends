@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+}
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+a {
+    color: #fff;
+    font-size: 13px;
+}
+#friendsLoginWrapper {
+    width: 960px;
+    margin: 40px auto 0 auto;
+}
+#friendsLoginContent {
+    width: 878px;
+    margin: 120px auto 0 auto;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    box-shadow: 0 1px 10px rgba(0,0,0,.1);
+    overflow: auto;
+}
+#friendsLoginContent h1 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+#friendsLoginContent h2 {
+    font-size: 17px;
+    margin: 15px 0 15px 0;
+}
+#friendsLoginContent p{
+	font-size: 13px;
+	line-height: 1.5em;
+	margin: 10px 0;
+}
+#friendsLoginContent a{
+	color: #2683BC;
+	font-weight: bold;
+	text-decoration: none;
+}
+#friendsLoginContent a:hover{
+	text-decoration: underline;
+}
+#friendsLoginLeftContent {
+    width: 517px;
+    margin: 20px;
+    padding-bottom:9px;
+    float: left;
+}
+#friendsLoginRightContent {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 0;
+}
+
+#loginFormContainer {
+    font-size: 0.8em;
+    margin: 20px 0 0 0; 
+    border: 1px solid #DFDFDF;
+    padding: 15px;
+}
+#loginFormContainer label {
+    display: block;
+    margin: 10px 0 2px 0;
+	display: inline-block;
+	width: 70px;
+}
+#loginFormContainer #username,#loginFormContainer #password  {
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-style:solid;
+    padding: 6px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+#loginFormContainer ul li
+{
+	 list-style-type: none;
+}
+
+#loginFormContainer ul
+{
+	float: left;
+	display: block;
+}
+
+#errorBox
+{
+	width: 127px;
+	background: #ebebeb;
+	float: left;
+	padding: 10px;
+	margin: 4px 0 0 13px;
+	border-radius: 5px 5px 5px 5px;
+	min-height: 78px;
+	color: #df3d27;
+	font-size: 0.9em;
+}
+
+#errorBox h2
+{
+	font-size: 1.1em;
+	padding: 0;
+	margin: 0 0 5px 0; 
+	font-weight: bold;
+}
+
+#submitForm {
+    border-radius: 5px 5px 5px 5px;
+    padding: 1px 12px 0;
+    display: inline-block;
+    margin: 8px 0 2px 0;
+    background: url("../assets/button_overlay_default.png") repeat-x scroll left top transparent;
+    border: 1px solid #E0E3E5;
+    font-size: 11px;
+    font-weight: bold;
+    height: 24px;
+    margin-left: 15px;
+    box-shadow: 0 1px 1px 0 #999;
+    text-shadow: 0 2px 3px white;
+    color: #2683BC;
+    cursor: pointer;
+    margin: 5px 0 0 258px;
+}
+#submitForm:hover {
+    background: url("../assets/button_large_hover.png") repeat-x scroll left top transparent;
+    color: #999;
+}
+hr {
+    clear: both;
+    border: 0;
+}
+
+.clear
+{ clear: both; }
+
+#serviceDescription
+{
+	background: #ebebeb;
+	padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+}
+
+#serviceDescription h2
+{
+	 padding: 0;
+	 margin: 0;
+}
+
+#serviceDescription p
+{
+	margin: 10px 0 0 0; 
+}
+
+/**
+* TopNav
+*/ 
+#friendsLoginTopNav {
+    background: url("../assets/topnav_bg.png") repeat-x scroll left top transparent;
+    -moz-box-shadow: 0 -5px 9px 6px #555;
+    -webkit-box-shadow: 0 -5px 9px 6px #555;
+    box-shadow: 0 -5px 9px 6px #555;
+    height: 40px;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+#friendsLoginTopNavContent {
+    width: 960px;
+    margin: 0 auto;
+}
+#friendsLoginTopNavContent a {
+    font-weight: bold;
+    padding: 10px 25px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+#friendsLoginTopNavContent a:hover {
+    text-decoration: underline;
+}
+
+/** 
+* Engineering Header
+*/
+#engineeringHeader {
+    height: 91px;
+    width: 100%;
+    background: url('../assets/ucam-header.jpg');
+    border-bottom: 5px solid #383737;
+}
+.is-product-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    padding: 30px 0 0 20px;
+    text-shadow: 0 0 2px #333;
+}
+.is-product-title span {
+    font-weight: normal;
+    display: block;
+    font-size: 0.75em;
+}
