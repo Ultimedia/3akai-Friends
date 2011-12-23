@@ -16,7 +16,7 @@ a {
 }
 #friendsLoginWrapper {
     width: 960px;
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
 }
 #friendsLoginContent {
     width: 878px;
@@ -40,12 +40,12 @@ a {
 	line-height: 1.5em;
 	margin: 10px 0;
 }
-#friendsLoginContent a{
+#friendsLoginContent p a{
 	color: #2683BC;
 	font-weight: bold;
 	text-decoration: none;
 }
-#friendsLoginContent a:hover{
+#friendsLoginContent p a:hover{
 	text-decoration: underline;
 }
 #friendsLoginLeftContent {
@@ -113,12 +113,26 @@ a {
 	font-weight: bold;
 }
 
+#cancelButton
+{
+	font-weight: normal;
+	color: #2683BC;
+	text-decoration: none;
+	float: right;
+    margin: 10px 10px 0 0;
+}
+
+#cancelButton:hover
+{
+	text-decoration: underline; 
+}
+
 #submitForm {
     border-radius: 5px 5px 5px 5px;
     padding: 1px 12px 0;
-    display: inline-block;
+    display: block;
     margin: 8px 0 2px 0;
-    background: url("../assets/button_overlay_default.png") repeat-x scroll left top transparent;
+    background: url("assets/button_overlay_default.png") repeat-x scroll left top transparent;
     border: 1px solid #E0E3E5;
     font-size: 11px;
     font-weight: bold;
@@ -128,16 +142,19 @@ a {
     text-shadow: 0 2px 3px white;
     color: #2683BC;
     cursor: pointer;
-    margin: 5px 0 0 258px;
+    margin: 5px 0 0 0;
+    float: right;
 }
 #submitForm:hover {
-    background: url("../assets/button_large_hover.png") repeat-x scroll left top transparent;
+    background: url("assets/button_large_hover.png") repeat-x scroll left top transparent;
     color: #999;
 }
 hr {
     clear: both;
     border: 0;
 }
+
+
 
 .clear
 { clear: both; }
@@ -165,7 +182,7 @@ hr {
 * TopNav
 */ 
 #friendsLoginTopNav {
-    background: url("../assets/topnav_bg.png") repeat-x scroll left top transparent;
+    background: url("assets/topnav_bg.png") repeat-x scroll left top transparent;
     -moz-box-shadow: 0 -5px 9px 6px #555;
     -webkit-box-shadow: 0 -5px 9px 6px #555;
     box-shadow: 0 -5px 9px 6px #555;
@@ -197,7 +214,7 @@ hr {
 #engineeringHeader {
     height: 91px;
     width: 100%;
-    background: url('../assets/ucam-header.jpg');
+    background: url('assets/ucam-header.jpg');
     border-bottom: 5px solid #383737;
 }
 .is-product-title {

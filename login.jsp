@@ -17,7 +17,7 @@
         
         <div id="engineeringHeader">
             <h1 class="is-product-title">
-                <span>Engineering Department</span>
+                <span>Cambridge Engineering Department</span>
                 Academic Collaboration Environment
             </h1>
         </div>
@@ -43,15 +43,16 @@
 					<% } %>
 					    <ul>
 					    	<li>
-					    		<label for="username">Username</label>
-					    		<input id="username" name="j_username" type="text" placeholder="Your username" />
+					    		<label for="username">Email address</label>
+					    		<input id="username" name="j_username" type="text" placeholder="Your email address" />
 					    	</li>
 					    	<li>
 					    		<label for="password">Password</label>
 					    		<input id="password" name="j_password" type="password" placeholder="Your password" />
 					    	</li>
 					    	<li>
-					    		<button type="submit" value="Sign In" class="s3d-button" id="submitForm">Sign in</button>
+					    		<button type="submit" value="Sign in" class="s3d-button" id="submitForm">Sign in</button>
+					    		<a id="cancelButton" href="https://prelude.ucamoae.caret.cam.ac.uk/">Cancel</a>
 					    	</li>
 					   	</ul>
 				    </form>
