@@ -43,7 +43,7 @@
 					<% } %>
 					    <ul>
 					    	<li>
-					    		<label for="username">Email address</label>
+					    		<label for="username">Email</label>
 					    		<input id="username" name="j_username" type="text" placeholder="Your email address" />
 					    	</li>
 					    	<li>
